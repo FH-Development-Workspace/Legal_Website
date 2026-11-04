@@ -1,7 +1,7 @@
 'use strict';
 
 window.LEGAL_CONFIG = {
-  API_BASE: 'https://backend-mczn.onrender.com/api/v1',
+  API_BASE: 'https://api.fh-development.xyz/api/v1',
   MAIN_SITE: 'https://fh-development.xyz',
   STATUS_URL: 'https://status.fh-development.xyz',
   SITE_NAME: 'FH Development Legal',
@@ -30,7 +30,7 @@ LEGAL.renderNav = function (active) {
 <header class="legal-header">
   <div class="legal-header-inner">
     <a href="${LEGAL_CONFIG.MAIN_SITE}" class="legal-brand">
-      <img src=""https://cdn.fh-development.xyz/departmental/logos/Real_White_Logo.png"" alt="FH Development" width="36" height="36" />
+      <img src="https://cdn.fh-development.xyz/departmental/logos/Real_White_Logo.png" alt="FH Development" width="36" height="36" />
       <span>FH Development</span>
     </a>
     <nav class="legal-nav-links" aria-label="Legal documents">
